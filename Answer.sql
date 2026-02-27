@@ -5,7 +5,7 @@ use Netflox;
 
 SELECT CONCAT(FirstName,' ',LastName) AS Name, CONCAT(Address,',',' ',City) AS CustAddress
 FROM MsCustomer
-ORDER BY DOBB
+ORDER BY DOB
 
 --2. Tampilkan Staff yang merupakan gabungan dari tiga digit terakhir StaffID dan LastName dengan format "ID - Last Name", Email, Gender dari staff yang Salarynya lebih dari 1,6 juta (RIGHT, CONCAT)
 
